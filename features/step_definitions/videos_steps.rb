@@ -3,9 +3,9 @@ Given(/^a video$/) do
 end
 
 When(/^I visit the videos page$/) do
-    pending # express the regexp above with the code you wish you had
+  visit videos_path
 end
 
 Then(/^I should see the video$/) do
-    pending # express the regexp above with the code you wish you had
+  expect(page).to have_text(@video.title)
 end
