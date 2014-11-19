@@ -2,6 +2,6 @@
 
 <div>
   <% @videos.each do |video| %>
-    <%= video.title %></br>
+    <%=link_to video.title, video_path(video.id) %></br>
   <% end %>
 </div>
