@@ -24,3 +24,7 @@ Then(/^I should see the videos$/) do
   expect(page).to have_text(@second_video.title)
 end
 
+When(/^I upload a video$/) do
+  click_on 'New'
+  click_on 'Save'
+end

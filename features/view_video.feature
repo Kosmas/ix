@@ -10,3 +10,8 @@ Feature: View a video
     Given some videos
     When I visit the videos page
     Then I should see the videos
+
+  Scenario: I can upload a video
+    When I visit the videos page
+    And I upload a video
+    Then I should see the video

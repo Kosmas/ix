@@ -4,9 +4,9 @@
 # is considered to be the first unless any hosts have the primary
 # property set.  Don't declare `role :all`, it's a meta role.
 
-role :app, %w{deploy@example.com}
-role :web, %w{deploy@example.com}
-role :db,  %w{deploy@example.com}
+role :app, %w{ix.mach7x.com}
+role :web, %w{ix.mach7x.com}
+role :db,  %w{ix.mach7x.com}
 
 
 # Extended Server Syntax
@@ -15,7 +15,14 @@ role :db,  %w{deploy@example.com}
 # server list. The second argument is a, or duck-types, Hash and is
 # used to set extended properties on the server.
 
-server 'example.com', user: 'deploy', roles: %w{web app}, my_property: :my_value
+server 'ix.mach7x.com', user: 'kosmas', roles: %w{web app}, my_property: :my_value
+
+
+# Dreamhost does not allow scripts from /tmp
+# fatal: cannot exec '/tmp/ix/git-ssh.sh': Permission denied
+set :tmp_dir, '/home/kosmas/tmp'
+
+set :deploy_to, '/home/kosmas/sites/mach7x.com/ix.mach7x.com'
 
 
 # Custom SSH Options
