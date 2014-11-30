@@ -9,5 +9,6 @@ describe 'videos/index' do
     render
     expect(rendered).to have_text(video_1.title)
     expect(rendered).to have_text(video_2.title)
+    expect(rendered).to have_text('New')
   end
 end
