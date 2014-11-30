@@ -17,4 +17,20 @@ RSpec.describe VideosController, :type => :controller do
      expect(response).to render_template(:show)
    end
   end
+  
+  describe 'GET new' do
+
+    it 'displays the new view' do
+      get :new
+      expect(response).to render_template(:new)
+    end
+  end
+
+#  describe 'POST create' do
+#    it 'creates a video' do
+#      post :create, video: { title: 'Wings of Desire' }
+#      expect(response).to redirect_to(videos_path)
+#      expect(assigns(:action).video.title).to eq('Wings of Desire')
+#    end
+#  end
 end
