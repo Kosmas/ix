@@ -1,0 +1,9 @@
+<h1>Add a video</h1>
+
+<%= form_for @video do |f| %>
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title  %>
+  </p>
+  <%= f.submit 'Add video' %>
+<% end %>
