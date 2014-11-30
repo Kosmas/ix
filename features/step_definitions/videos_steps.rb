@@ -26,5 +26,7 @@ end
 
 When(/^I upload a video$/) do
   click_on 'New'
-  click_on 'Save'
+  fill_in 'Title', with: 'Wings of Desire'
+  @video = Video.new(title: 'Wings of Desire')
+  click_on 'Add video'
 end
