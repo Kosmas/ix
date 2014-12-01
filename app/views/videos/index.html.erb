@@ -1,11 +1,31 @@
-<h1>Videos</h1>
-
-<div>
-  <% @videos.each do |video| %>
-    <%=link_to video.title, video_path(video.id) %></br>
-  <% end %>
+<div class="container">
+  <div class="row">
+    &nbsp;
+  </div>
+  <div class="row">
+    &nbsp;
+  </div>
+  <div class="row">
+    <div class="col-lg-4">
+      <h2>Videos</h2>
+    </div>
+  </div>
 </div>
 
-<div>
-  <%= link_to 'New', new_video_path %>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6">
+      <% @videos.each do |video| %>
+        <%=link_to video.title, video_path(video.id), class: "btn btn-link" %></br>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6">
+      <%= link_to 'New', new_video_path, class: "btn btn-primary" %>
+    </div>
+  </div>
 </div>

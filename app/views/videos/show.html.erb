@@ -2,12 +2,28 @@
   videojs.options.flash.swf = "#{Rails.root}/video-js.swf";
 </script>
 
-</h3><%= @video.title %></h3>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      &nbsp;
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-log-12">
+      &nbsp;
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12">
+      <h3><%= @video.title %></h3>
 
-<video id="example_video_1" class="video-js vjs-default-skin" controls preload="auto" width="640" height="264" 
-  poster="http://video-js.zencoder.com/coceans-clip.png"
-  data-setup='{"example_option";true}'>
-  <source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4' />
-  <p class="vjs-no-js">To view this video please enable Javascript, and consider upgrading to a web browser that
-  <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML7 video</a></p>
-</video>
+      <video id="example_video_1" class="video-js vjs-default-skin" controls preload="auto" width="640" height="264" 
+        poster="http://video-js.zencoder.com/coceans-clip.png"
+        data-setup='{"example_option";true}'>
+        <source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4' />
+        <p class="vjs-no-js">To view this video please enable Javascript, and consider upgrading to a web browser that
+        <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML7 video</a></p>
+      </video>
+    </div>
+  </div>
+</div>
