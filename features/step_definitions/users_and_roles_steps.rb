@@ -18,7 +18,7 @@ Then(/^I should be on the index page$/) do
   expect(current_path).to eq(root_path)
 end
 
-When(/^I visit the sign up page$/) do
+When(/^I go to the registration page$/) do
   visit new_user_registration_path
 end
 
@@ -26,12 +26,10 @@ When(/^I register$/) do
   fill_in 'Email', with: 'test@ix.com'
   fill_in 'Password', with: 'very_secret'
   fill_in 'Password confirmation', with: 'very_secret'
-  click_on 'Sign up'
+  click_button 'Sign up'
 end
 
 Then(/^I should be a registered user$/) do
   expect(User.count).to eq(1)
-  expect(User.find(1).email).to eq('test@ix.om')
+  expect(User.find(1).email).to eq('test@ix.com')
 end
-
-
