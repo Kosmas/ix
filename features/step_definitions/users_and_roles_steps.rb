@@ -19,6 +19,7 @@ Then(/^I should be on the index page$/) do
 end
 
 When(/^I go to the registration page$/) do
+  User.delete_all
   visit new_user_registration_path
 end
 
@@ -31,5 +32,4 @@ end
 
 Then(/^I should be a registered user$/) do
   expect(User.count).to eq(1)
-  expect(User.find(1).email).to eq('test@ix.com')
 end
