@@ -216,7 +216,7 @@ PLATFORMS
 DEPENDENCIES
   autoprefixer-rails (~> 4.0.2.2)
   bootstrap-sass (~> 3.3.1)
-  capistrano (~> 3.3.3)
+  capistrano (~> 3.3.5)
   capistrano-rails (~> 1.1.2)
   capybara (~> 2.4.4)
   coffee-rails (~> 4.1.0)
