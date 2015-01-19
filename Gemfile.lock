@@ -40,8 +40,9 @@ GEM
     autoprefixer-rails (5.0.0.1)
       execjs
     bcrypt (3.1.9)
-    bootstrap-sass (3.3.1.0)
-      sass (~> 3.2)
+    bootstrap-sass (3.3.2.0)
+      autoprefixer-rails (>= 5.0.0.1)
+      sass (>= 3.2.19)
     builder (3.2.2)
     capistrano (3.3.5)
       capistrano-stats (~> 1.1.0)
@@ -214,7 +215,7 @@ PLATFORMS
 
 DEPENDENCIES
   autoprefixer-rails (~> 5.0.0)
-  bootstrap-sass (~> 3.3.1)
+  bootstrap-sass (~> 3.3.2.0)
   capistrano (~> 3.3.5)
   capistrano-rails (~> 1.1.2)
   capybara (~> 2.4.4)
