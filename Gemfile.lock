@@ -37,7 +37,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     arel (6.0.0)
-    autoprefixer-rails (5.1.1)
+    autoprefixer-rails (5.1.3.1)
       execjs
       json
     bcrypt (3.1.10)
@@ -93,7 +93,7 @@ GEM
       warden (~> 1.2.3)
     diff-lcs (1.2.5)
     erubis (2.7.0)
-    execjs (2.2.2)
+    execjs (2.3.0)
     gherkin (2.12.2)
       multi_json (~> 1.3)
     globalid (0.3.0)
@@ -221,7 +221,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  autoprefixer-rails (~> 5.1.1)
+  autoprefixer-rails (~> 5.1.3)
   bootstrap-sass (~> 3.3.3)
   capistrano (~> 3.3.5)
   capistrano-rails (~> 1.1.2)
