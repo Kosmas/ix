@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe VideosController, :type => :controller do
+RSpec.describe VideosController, type: :controller do
 
   before(:example) do
     sign_in User.create!(email: 'rspec@example.com', password: 'password')
