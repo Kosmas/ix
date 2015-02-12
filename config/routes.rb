@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   devise_for :users
-  resources :videos
+  resources :videos, only: [:index, :show, :new, :create]
   root 'videos#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
