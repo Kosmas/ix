@@ -10,8 +10,8 @@ When(/^I login$/) do
 end
 
 Given(/^I am a logged in user$/) do
-  step "I am a registered user"
-  step "I login"
+  step 'I am a registered user'
+  step 'I login'
 end
 
 Then(/^I should be on the index page$/) do
