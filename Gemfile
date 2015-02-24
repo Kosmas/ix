@@ -29,7 +29,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring', '~> 1.3.2', group: :development
 
 group :development, :test do
-  gem 'rspec-rails', '~> 3.2.0'
+  gem 'rspec-rails', '~> 3.2.1'
 end
 
 # Add capybara
