@@ -229,7 +229,7 @@ DEPENDENCIES
   cucumber-rails (~> 1.4.2)
   database_cleaner (~> 1.4.0)
   devise (~> 3.4.1)
-  jbuilder (~> 2.2.8)
+  jbuilder (~> 2.2.9)
   jquery-rails (~> 4.0.3)
   newrelic_rpm (~> 3.10.0)
   pg (~> 0.18.1)
