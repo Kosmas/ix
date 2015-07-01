@@ -62,4 +62,4 @@ gem 'autoprefixer-rails', '~> 5.2.1'
 gem 'devise', '~> 3.5.1'
 
 # Add new relic
-gem 'newrelic_rpm', '~> 3.12.0'
+gem 'newrelic_rpm', '~> 3.12.1'
