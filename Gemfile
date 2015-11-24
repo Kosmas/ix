@@ -63,3 +63,6 @@ gem 'devise', '~> 3.5.2'
 
 # Add new relic
 gem 'newrelic_rpm', '~> 3.14.0'
+
+# Security update for nokogiri
+gem 'nokogiri', '~> 1.6.6.4'
