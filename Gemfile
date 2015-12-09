@@ -56,7 +56,7 @@ gem 'capistrano', '~> 3.4.0', group: :development
 
 # Add bootstrap-sass
 gem 'bootstrap-sass', '~> 3.3.6'
-gem 'autoprefixer-rails', '~> 6.1.1'
+gem 'autoprefixer-rails', '~> 6.1.2'
 
 # add devise
 gem 'devise', '~> 3.5.2'
