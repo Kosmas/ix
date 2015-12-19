@@ -228,7 +228,7 @@ DEPENDENCIES
   jbuilder (~> 2.3.2)
   jquery-rails (~> 4.0.5)
   newrelic_rpm (~> 3.14.1)
-  nokogiri (~> 1.6.7)
+  nokogiri (~> 1.6.7.1)
   pg (~> 0.18.4)
   rails (= 4.2.5)
   rspec-rails (~> 3.4.0)
