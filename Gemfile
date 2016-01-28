@@ -33,7 +33,7 @@ group :development, :test do
 end
 
 # Add capybara
-gem 'capybara', '~> 2.6.0', group: :test
+gem 'capybara', '~> 2.6.2', group: :test
 
 # Add cucumber
 group :development, :test do
