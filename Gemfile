@@ -37,7 +37,7 @@ gem 'capybara', '~> 2.6.2', group: :test
 
 # Add cucumber
 group :development, :test do
-  gem 'cucumber-rails', '~> 1.4.2', require: false
+  gem 'cucumber-rails', '~> 1.4.3', require: false
   gem 'database_cleaner', '~> 1.5.1'
 end
 
