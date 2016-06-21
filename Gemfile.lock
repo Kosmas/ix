@@ -40,7 +40,7 @@ GEM
     airbrussh (1.0.2)
       sshkit (>= 1.6.1, != 1.7.0)
     arel (6.0.3)
-    autoprefixer-rails (6.3.6)
+    autoprefixer-rails (6.3.6.2)
       execjs
     bcrypt (3.1.11)
     bootstrap-sass (3.3.6)
@@ -101,7 +101,7 @@ GEM
       warden (~> 1.2.3)
     diff-lcs (1.2.5)
     erubis (2.7.0)
-    execjs (2.6.0)
+    execjs (2.7.0)
     gherkin (3.2.0)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
@@ -227,7 +227,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  autoprefixer-rails (~> 6.3.6)
+  autoprefixer-rails (~> 6.3.6.2)
   bootstrap-sass (~> 3.3.6)
   capistrano (~> 3.5.0)
   capistrano-rails (~> 1.1.7)
