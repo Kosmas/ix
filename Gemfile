@@ -59,7 +59,7 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'autoprefixer-rails', '~> 6.3.7'
 
 # add devise
-gem 'devise', '~> 4.1.1'
+gem 'devise', '~> 4.2.0'
 
 # Add new relic
 gem 'newrelic_rpm', '~> 3.16.0'
