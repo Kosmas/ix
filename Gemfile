@@ -8,7 +8,7 @@ gem 'sqlite3', '~> 1.3.11'
 # And postgres for deployment
 gem 'pg', '~> 0.18.4'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0.4'
+gem 'sass-rails', '~> 5.0.5'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '~> 3.0.0'
 # Use CoffeeScript for .js.coffee assets and views
