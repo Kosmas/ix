@@ -66,4 +66,4 @@ gem 'devise', '~> 4.2.0'
 gem 'newrelic_rpm', '~> 3.17.2'
 
 # Security update for nokogiri
-gem 'nokogiri', '~> 1.6.7'
+gem 'nokogiri', '~> 1.7.0'
