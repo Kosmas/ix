@@ -14,7 +14,7 @@ gem 'uglifier', '~> 3.0.4'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.2.1'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-gem 'therubyracer', '~> 0.12.2',  platforms: :ruby
+gem 'therubyracer', '~> 0.12.3',  platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails', '~> 4.2.2'
