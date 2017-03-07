@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.0.1'
+gem 'rails', '5.0.2'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.3.13'
 # And postgres for deployment
@@ -21,19 +21,19 @@ gem 'jquery-rails', '~> 4.2.2'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks', '~> 5.0.1'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.6.1'
+gem 'jbuilder', '~> 2.6.3'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.2',          group: :doc
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-gem 'spring', '~> 2.0.0', group: :development
+gem 'spring', '~> 2.0.1', group: :development
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.5.2'
 end
 
 # Add capybara
-gem 'capybara', '~> 2.11.0', group: :test
+gem 'capybara', '~> 2.12.1', group: :test
 
 # Add cucumber
 group :development, :test do
@@ -50,20 +50,20 @@ end
 
 # Use Capistrano for deployment
 gem 'capistrano-rails', '~> 1.2.2', group: :development
-gem 'capistrano', '~> 3.7.1', group: :development
+gem 'capistrano', '~> 3.7.2', group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
 # Add bootstrap-sass
 gem 'bootstrap-sass', '~> 3.3.7'
-gem 'autoprefixer-rails', '~> 6.6.1'
+gem 'autoprefixer-rails', '~> 6.7.5'
 
 # add devise
 gem 'devise', '~> 4.2.0'
 
 # Add new relic
-gem 'newrelic_rpm', '~> 3.17.2'
+gem 'newrelic_rpm', '~> 3.18.1'
 
 # Security update for nokogiri
 gem 'nokogiri', '~> 1.7.0.1'
