@@ -39,7 +39,7 @@ gem 'capybara', '~> 2.14.0', group: :test
 group :development, :test do
   gem 'cucumber-rails', '~> 1.5.0', require: false
   gem 'database_cleaner', '~> 1.6.1'
-  gem 'rails-controller-testing', '~> 1.0.1'
+  gem 'rails-controller-testing', '~> 1.0.2'
 end
 
 # Use ActiveModel has_secure_password
