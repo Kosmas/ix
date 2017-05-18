@@ -61,8 +61,7 @@ gem 'bootstrap-sass', '~> 3.3.7'
 gem 'autoprefixer-rails', '~> 7.1.0'
 
 # add devise
-#gem 'devise', '~> 4.2.1'
-gem 'devise', github: 'plataformatec/devise'
+gem 'devise', '~> 4.3.0'
 
 # Add new relic
 gem 'newrelic_rpm', '~> 4.1.0'
