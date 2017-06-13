@@ -6,7 +6,7 @@ gem 'rails', '5.1.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.3.13'
 # And postgres for deployment
-gem 'pg', '~> 0.20.0'
+gem 'pg', '~> 0.21.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0.6'
 # Use Uglifier as compressor for JavaScript assets
