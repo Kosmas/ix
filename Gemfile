@@ -50,7 +50,7 @@ end
 
 # Use Capistrano for deployment
 gem 'capistrano-rails', '~> 1.3.0', group: :development
-gem 'capistrano', '~> 3.9.0', group: :development
+gem 'capistrano', '~> 3.9.1', group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
