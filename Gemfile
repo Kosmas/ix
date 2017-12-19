@@ -63,7 +63,7 @@ gem 'autoprefixer-rails', '~> 7.2.3'
 gem 'devise', '~> 4.3.0'
 
 # Add new relic
-gem 'newrelic_rpm', '~> 4.6.0'
+gem 'newrelic_rpm', '~> 4.7.0'
 
 # Security update for nokogiri
 gem 'nokogiri', '~> 1.8.1'
